@@ -1,0 +1,330 @@
+@charset 'utf-8';
+.channel-banner .top1 ul {
+    background: #0082D8;
+    z-index: 1;
+    position: absolute;
+    top: 195px;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    display: none;
+    li {
+        float: left;
+        margin: 10px 10px 20px 10px;
+        padding: 0px 20px;
+        text-align: center;
+        line-height: 3;
+    }
+    li.on {
+        background: #395FB4;
+    }
+}
+
+.channel-banner .top1 li:hover {
+    background: #395FB4;
+}
+
+.channel-main0 {
+    display: none;
+    .channel-hd {
+        background-image: url(../images/job_bg01.png);
+        padding-left: 20px;
+        p {
+            font-size: 16px;
+            text-align: left;
+            color: #1b81c8;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .text {
+            padding-bottom: 20px;
+        }
+    }
+    .channel-bd {
+        .search-Box {
+            background-color: #f8f7f8;
+            padding: 15px 30px 20px;
+            margin-bottom: 25px;
+            p {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            .se {
+                float: left;
+                margin-right: 2%;
+                height: 20px;
+                select {
+                    width: 100%;
+                    background: #f8f7f8;
+                    outline: none;
+                    height: 32px;
+                    option {
+                        display: block;
+                        padding: 0px 2px 1px;
+                        white-space: pre;
+                        min-height: 1.2em;
+                    }
+                }
+            }
+            .texx {
+                float: left;
+                margin-right: 13%;
+                input {
+                    height: 30px;
+                    background: #f8f7f8;
+                    outline: none;
+                    border: 1px solid #999999;
+                }
+            }
+            .btn {
+                float: left;
+                margin-left: -12%;
+                button {
+                    height: 2em;
+                    line-height: 1;
+                    background-color: #f1690f;
+                    color: #fff;
+                    border-width: 0;
+                    border-bottom: #883600 3px solid;
+                    padding: 0 30px;
+                    cursor: pointer;
+                    box-sizing: border-box;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .jobs {
+        margin-bottom: 50px;
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 15px;
+            tr {
+                text-align: center;
+                height: 50px;
+                background: #F7F7F7;
+                strong {
+                    color: #0E9CDC;
+                }
+            }
+            th {
+                background: #1b81c8;
+                color: white;
+                font-size: 15px;
+            }
+            .ii {
+                background-color: #EDEDED;
+            }
+            .first {
+                color: #0E9CDC;
+            }
+        }
+        .fu {
+            background: white;
+            text-align: left;
+            color: black;
+            font-size: 13px;
+            display: none;
+            p:first-child {
+                margin-top: 20px;
+            }
+            button {
+                height: 2em;
+                line-height: 1;
+                background-color: #f1690f;
+                color: #fff;
+                border-width: 0;
+                border-bottom: #883600 3px solid;
+                padding: 0 30px;
+                cursor: pointer;
+                box-sizing: border-box;
+                height: 30px;
+                margin-bottom: 20px;
+            }
+        }
+        .fu.on {
+            display: block;
+        }
+    }
+}
+
+.channel-main1 {
+	display: none;
+    padding-left: 20px;
+    .wrap {
+        background: #fff url(../images/job_bg.png) 60% bottom no-repeat;
+        padding-bottom: 90px;
+        .text {
+            font-size: 15px;
+            line-height: 2;
+            margin-bottom: 25px;
+            .blue {
+                color: #1b81c8;
+                font-weight: normal;
+            }
+        }
+        .btn {
+            padding-left: 15px;
+            padding-top: 20px;
+            a {
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                font-size: 16px;
+                color: #fff;
+                background-color: #f86c0f;
+                border-bottom: #8c3800 3px solid;
+                padding: 0 50px;
+                cursor: pointer;
+                color: #ffffff;
+            }
+        }
+    }
+}
+.channel-main2 {
+    display: none;
+    margin-bottom: 40px;
+    .channel-con {
+        min-height: 300px;
+        .content {
+            .items {
+                float: left;
+                width: 8%;
+                text-indent: 10px;
+                h3 {
+                    font-size: 16px;
+                }
+            }
+            .hriz {
+                float: left;
+                height: 10px;
+                width: 92%;
+                border-bottom: 1px solid #DDDDDD;
+                margin-top: 20px;
+            }
+            .items0 {
+                width: 12%;
+            }
+            .hriz0 {
+                width: 88%;
+            }
+            .job-form {
+                margin-bottom: 10px;
+                line-height: 28px;
+                .t {
+                    width: 11em;
+                    text-align: right;
+                    vertical-align: middle;
+                    display: inline-block;
+                    b {
+                        display: inline-block;
+                        color: red;
+                        vertical-align: middle;
+                    }
+                }
+                ._input {
+                    width: 60%;
+                    vertical-align: middle;
+                    border: 1px solid #ddd;
+                    padding: 0 2px;
+                    display: inline-block;
+                    input,
+                    select,
+                    textarea {
+                        border: none;
+                        outline: none;
+                        width: 100%;
+                    }
+                    textarea {
+                        overflow: auto;
+                        height: 5em;
+                        width: 100%;
+                    }
+                }
+                // ._long {
+                //     width: 80%;
+                // }
+            }
+            .add-btn,
+            .del-btn {
+                display: inline-block;
+                float: right;
+                margin-right: 5%;
+                a {
+                    padding: 0px;
+                    display: inline-block;
+                    width: 61px;
+                    height: 23px;
+                    line-height: 22px;
+                    background: #fff;
+                    text-align: center;
+                    border-radius: 4px;
+                    border: #adadad 1px solid;
+                }
+            }
+            ._act {
+                text-align: center;
+                margin-top: 1em;
+                button {
+                    padding: .5em 2.5em;
+                    color: #fff;
+                    margin: 0 .5em;
+                    cursor: pointer;
+                    border: none;
+                }
+                .sub {
+                    background: #f86c0f;
+                }
+                .res {
+                    background: #909090;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .channel-banner .box {
+        height: 200px;
+        text-align: center;
+    }
+    .channel-menu {
+        display: none;
+    }
+    .channel-banner .top1 ul {
+        display: block;
+    }
+    .channel-bd {
+        .se {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .texx {
+            width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+        .btn {
+            margin-top: 10px;
+            padding-left: 60px;
+        }
+    }
+    .channel-hd {
+        padding-left: 15px;
+    }
+    .channel-main1 {
+        padding-left: 15px;
+    }
+    .channel-main2 .channel-con .content {
+        .items {
+            width: 20%;
+        }
+        .hriz {
+            width: 80%;
+        }
+      
+    }
+     
+}

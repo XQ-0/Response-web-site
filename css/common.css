@@ -1,0 +1,456 @@
+@charset 'utf-8';
+body,header,section,div,form,input,button,a,i,ul,li,img,h1,h2,p,section,dl,dt,dd,span,footer{
+	margin: 0;
+	padding: 0;
+	font-family: \5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('font/iconfont.eot'); /* IE9*/
+    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	transition: all 0.3s ease;
+}
+img{
+	max-width: 100%;
+}
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.fix{
+	zoom:1;
+}
+.fix:after{
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+body {
+	width: 100%;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555;
+    background: #fff;
+}
+.wrap {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+}
+/*头部*/
+.pageHeader{
+    width: 100%;
+	background-color: #ffffff;
+	position: relative;
+}
+.topBar {
+    background-color: #192025;
+    border-bottom: #1b81c8 6px solid;
+    padding: 7px 0;
+    height:28px;
+}
+.topBar .wrap {
+    position: relative;
+}
+.searchBox {
+    position: absolute;
+    right: 22px;
+    top: -7px;
+    white-space: nowrap;
+    width: auto;
+    height: 42px;
+    line-height: 42px;
+    background-color: #0082d8;
+    padding: 0 0 0 15px;
+    display: none;
+}
+
+.topBar .searchBox ._input, .topBar .searchBox ._btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+.topBar .searchBox ._input input {
+    border-width: 0;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+}
+/*.topBar .searchBox ._btn .ion {
+    margin: 0;
+    font-size: 30px;
+}*/
+.topBar .search {
+    float: right;
+}
+.topBar .search ._btn {
+    font-size: 17px;
+}
+.topBar .search ._btn .ion{
+    font-size: 30px;
+}
+.topBar .links {
+    float: right;
+}
+.topBar .search, .topBar .links a {
+    background-color: #263139;
+    border-radius: 3px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+.topBar .links a {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 18px;
+}
+
+.topBar .search ._btn i:hover{
+    display: block;
+    font-size: 24px;
+    color: #ccc;
+    background-color: #0082D8;
+    height: 45px;
+    line-height: 45px;
+    margin-top: -7px;
+}
+
+/*头部列表*/
+.top .logo {
+    float: left;
+    padding: 17px 0;
+}
+.nav {
+    margin-left: 280px;
+    padding-top: 30px;
+}
+.nav > ul > li {
+    width: 14.285%;
+    float: left;
+}
+.nav > ul > li > a {
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.pageHeader .nav > ul > li > a.now{
+    color:#1B81C8;
+}
+.biao {
+    display: none;
+}
+.nav > ul > li > a:hover{
+    color: #1E8CDA;
+}
+/*侧边头部*/
+.ceNav{
+    position: absolute;
+    top: 0;
+    left: -260px;
+    background: #333333;
+    width: 260px;
+    z-index: 200;
+}
+.ceNav li{
+    border-bottom: 1px solid #2B2B2B;
+    padding-left: 10px;
+}
+.ceNav li a{
+    display: block;
+    font-size: 16px;
+    color: #ADADAD;
+    margin: 0;
+    padding: 10px 10px 10px 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ceNav li:nth-child(1){
+    padding-top: 20px;
+}
+.ceNav li a:hover{
+    color: white;
+}
+/*底部*/
+.pageFooter {
+    background-color: #19242c;
+    line-height: 2;
+}
+.foot01 {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ccc;
+}
+.foot01 .ico{
+	display: inline-block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/ico.png);
+}
+.foot01 ul li{
+	float: left;
+}
+.foot01 .li1{
+	width: 29%;
+	margin-right:5%;
+	padding-left: 1%;
+    background: #19242C;
+    margin-top: -11px;
+}
+.foot01 .li2{
+	width: 35%;
+	margin-right:5%;
+}
+.foot01 .li3{
+	width: 25%;
+}
+.foot01 h2{
+	border-bottom: 1px solid #02131F;
+	padding-bottom: 8px;
+}
+.foot01 dl{
+	display: block;
+}
+.foot01 dt{
+	display: inline-block;
+}
+.foot01 dd{
+	display: inline-block;
+	margin-left: 2%;
+	line-height: 2.5;
+}
+.foot01 .ico2 {
+    background-position: -20px 0;
+}
+.foot01 .ico3 {
+    background-position: -40px 0;
+}
+.foot01 .ico4 {
+    background-position: -60px 0;
+}
+.foot01 .ico5 {
+    background-position: -80px 0;
+}
+.foot01 li p{
+	margin-top: 12px;
+	border-bottom: 1px solid #02131F;
+	padding-bottom: 19px;
+}
+.foot01 .share a{
+	float: left;
+	cursor: pointer;
+    margin: 6px 6px 6px 0;
+    height: 37px;
+    line-height: 37px;
+    width: 37px;
+    background-image: url(../images/f_share.png);
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.foot01 .share .qq{
+	background-position: -37px 0;
+}
+.foot01 .share .sina{
+	background-position: -74px 0;
+}
+
+.foot01 .daoh ul li{
+	width:50%;
+	float: left;
+	margin-top: 7px;
+    text-align: left;
+}
+
+.foot01 .daoh a:hover{
+	color: white;
+}
+.foot02 {
+    background-color: #171e23;
+    color: #7b7b7b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot02 .copyRight{
+	float: left;
+}
+.foot02 .author{
+	float: right;
+}
+.foot02 a:hover{
+	color: white;
+}
+
+
+/* 侧边固定*/
+
+.fixed-right{
+   position: fixed;
+    right: 0;
+    top: 40%;
+    width: 60px;
+    border: #ececec 1px solid;
+    z-index: 20;
+}
+
+.fixed-right ul li .con{
+    display: block;
+    width: 60px;
+    border-bottom: #ececec 1px solid;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+.fixed-right ul li a:hover{
+   background: #1E8CDA;
+}
+.fixed-right ul li a:hover .contact1{
+     background-position: -60px 0;
+}
+.fixed-right ul li a:hover .contact2{
+     background-position: -60px -60px;
+}
+.contact {
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background: url(../images/side_menu_ico.png) no-repeat;
+    z-index: 30;
+}
+.contact1{
+    background-position: 0 0;
+}
+.contact2{
+   background-position: 0 -60px;
+}
+.fixed-right .text{
+   height: 60px;
+   width: 160px;
+    background-color: #1e8cda;
+    position: absolute;
+    right: -161px;
+    top: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 20;
+}
+.fixed-right li:nth-child(3){
+    font-size: 22px;
+    color: white;
+    background: #1E8CDA;
+    text-align: center;
+}
+
+/*分页头部*/
+.li1 {
+  background: #f2fbff;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.li1 a:hover {
+  color: #3879D9;
+}
+
+/* 部分网页的尾部*/
+.bottomTip{
+    background-color: #1b81c8;
+    line-height: 35px;
+    color: #fff;
+    font-size: 24px;
+}
+.bottomTip strong{
+    float: left;
+    padding: 15px 0 15px 4%;
+}
+.bottomTip a{
+    float: right;
+    padding: 15px 5% 15px 12%;
+    background: #2399d6 url(../images/pro_list_bottombg.png) left no-repeat;
+    color: #fff!important;
+}
+
+
+@media screen and (max-width:640px){
+    /*底部*/
+    .foot01 li{
+        font-size: 15px;
+    }
+    .foot01 .li1{
+        width: 85%;
+        padding-left:8%;
+    }
+    .foot01 .li2{
+        width: 85%;
+        padding:0 7.5%;
+    }
+    .foot01 .li3{
+        width: 85%;
+        padding-left:8%;
+    }
+    .foot02{
+        padding: 2% 8%;
+        font-size: 15px;
+     }
+    .foot02 .copyRight{
+        float: none;
+    }
+    .foot02 .author{
+        float:none;
+    }
+    /*头部*/
+    .top .nav{
+        display: none;
+    }
+    .biao{
+        display: block;
+        position: absolute;
+        right:40px;
+        top:60px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  .li1 {
+    text-indent: 5px;
+  }
+  .pageHeader .logo img {
+    width: 80%;
+  }
+  .pageHeader .top .nav li a {
+    font-size: 8px;
+    margin-left: -40px;
+  }
+}
+
+
+
+

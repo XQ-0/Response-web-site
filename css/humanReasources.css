@@ -1,0 +1,314 @@
+@charset 'utf-8';
+.channel-banner .top1 ul {
+  background: #0082D8;
+  z-index: 1;
+  position: absolute;
+  top: 195px;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  display: none;
+}
+.channel-banner .top1 ul li {
+  float: left;
+  margin: 10px 10px 20px 10px;
+  padding: 0px 20px;
+  text-align: center;
+  line-height: 3;
+}
+.channel-banner .top1 ul li.on {
+  background: #395FB4;
+}
+.channel-banner .top1 li:hover {
+  background: #395FB4;
+}
+.channel-main0 {
+  display: none;
+}
+.channel-main0 .channel-hd {
+  background-image: url(../images/job_bg01.png);
+  padding-left: 20px;
+}
+.channel-main0 .channel-hd p {
+  font-size: 16px;
+  text-align: left;
+  color: #1b81c8;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.channel-main0 .channel-hd .text {
+  padding-bottom: 20px;
+}
+.channel-main0 .channel-bd .search-Box {
+  background-color: #f8f7f8;
+  padding: 15px 30px 20px;
+  margin-bottom: 25px;
+}
+.channel-main0 .channel-bd .search-Box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.channel-main0 .channel-bd .search-Box .se {
+  float: left;
+  margin-right: 2%;
+  height: 20px;
+}
+.channel-main0 .channel-bd .search-Box .se select {
+  width: 100%;
+  background: #f8f7f8;
+  outline: none;
+  height: 32px;
+}
+.channel-main0 .channel-bd .search-Box .se select option {
+  display: block;
+  padding: 0px 2px 1px;
+  white-space: pre;
+  min-height: 1.2em;
+}
+.channel-main0 .channel-bd .search-Box .texx {
+  float: left;
+  margin-right: 13%;
+}
+.channel-main0 .channel-bd .search-Box .texx input {
+  height: 30px;
+  background: #f8f7f8;
+  outline: none;
+  border: 1px solid #999999;
+}
+.channel-main0 .channel-bd .search-Box .btn {
+  float: left;
+  margin-left: -12%;
+}
+.channel-main0 .channel-bd .search-Box .btn button {
+  height: 2em;
+  line-height: 1;
+  background-color: #f1690f;
+  color: #fff;
+  border-width: 0;
+  border-bottom: #883600 3px solid;
+  padding: 0 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+}
+.channel-main0 .jobs {
+  margin-bottom: 50px;
+}
+.channel-main0 .jobs table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+.channel-main0 .jobs table tr {
+  text-align: center;
+  height: 50px;
+  background: #F7F7F7;
+}
+.channel-main0 .jobs table tr strong {
+  color: #0E9CDC;
+}
+.channel-main0 .jobs table th {
+  background: #1b81c8;
+  color: white;
+  font-size: 15px;
+}
+.channel-main0 .jobs table .ii {
+  background-color: #EDEDED;
+}
+.channel-main0 .jobs table .first {
+  color: #0E9CDC;
+}
+.channel-main0 .jobs .fu {
+  background: white;
+  text-align: left;
+  color: black;
+  font-size: 13px;
+  display: none;
+}
+.channel-main0 .jobs .fu p:first-child {
+  margin-top: 20px;
+}
+.channel-main0 .jobs .fu button {
+  height: 2em;
+  line-height: 1;
+  background-color: #f1690f;
+  color: #fff;
+  border-width: 0;
+  border-bottom: #883600 3px solid;
+  padding: 0 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.channel-main0 .jobs .fu.on {
+  display: block;
+}
+.channel-main1 {
+  display: none;
+  padding-left: 20px;
+}
+.channel-main1 .wrap {
+  background: #ffffff url(../images/job_bg.png) 60% bottom no-repeat;
+  padding-bottom: 90px;
+}
+.channel-main1 .wrap .text {
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 25px;
+}
+.channel-main1 .wrap .text .blue {
+  color: #1b81c8;
+  font-weight: normal;
+}
+.channel-main1 .wrap .btn {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+.channel-main1 .wrap .btn a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f86c0f;
+  border-bottom: #8c3800 3px solid;
+  padding: 0 50px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.channel-main2 {
+  display: none;
+  margin-bottom: 40px;
+}
+.channel-main2 .channel-con {
+  min-height: 300px;
+}
+.channel-main2 .channel-con .content .items {
+  float: left;
+  width: 8%;
+  text-indent: 10px;
+}
+.channel-main2 .channel-con .content .items h3 {
+  font-size: 16px;
+}
+.channel-main2 .channel-con .content .hriz {
+  float: left;
+  height: 10px;
+  width: 92%;
+  border-bottom: 1px solid #DDDDDD;
+  margin-top: 20px;
+}
+.channel-main2 .channel-con .content .items0 {
+  width: 12%;
+}
+.channel-main2 .channel-con .content .hriz0 {
+  width: 88%;
+}
+.channel-main2 .channel-con .content .job-form {
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+.channel-main2 .channel-con .content .job-form .t {
+  width: 11em;
+  text-align: right;
+  vertical-align: middle;
+  display: inline-block;
+}
+.channel-main2 .channel-con .content .job-form .t b {
+  display: inline-block;
+  color: red;
+  vertical-align: middle;
+}
+.channel-main2 .channel-con .content .job-form ._input {
+  width: 60%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  padding: 0 2px;
+  display: inline-block;
+}
+.channel-main2 .channel-con .content .job-form ._input input,
+.channel-main2 .channel-con .content .job-form ._input select,
+.channel-main2 .channel-con .content .job-form ._input textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.channel-main2 .channel-con .content .job-form ._input textarea {
+  overflow: auto;
+  height: 5em;
+  width: 100%;
+}
+.channel-main2 .channel-con .content .add-btn,
+.channel-main2 .channel-con .content .del-btn {
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+.channel-main2 .channel-con .content .add-btn a,
+.channel-main2 .channel-con .content .del-btn a {
+  padding: 0px;
+  display: inline-block;
+  width: 61px;
+  height: 23px;
+  line-height: 22px;
+  background: #fff;
+  text-align: center;
+  border-radius: 4px;
+  border: #adadad 1px solid;
+}
+.channel-main2 .channel-con .content ._act {
+  text-align: center;
+  margin-top: 1em;
+}
+.channel-main2 .channel-con .content ._act button {
+  padding: .5em 2.5em;
+  color: #fff;
+  margin: 0 .5em;
+  cursor: pointer;
+  border: none;
+}
+.channel-main2 .channel-con .content ._act .sub {
+  background: #f86c0f;
+}
+.channel-main2 .channel-con .content ._act .res {
+  background: #909090;
+}
+@media screen and (max-width: 640px) {
+  .channel-banner .box {
+    height: 200px;
+    text-align: center;
+  }
+  .channel-menu {
+    display: none;
+  }
+  .channel-banner .top1 ul {
+    display: block;
+  }
+  .channel-bd .se {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .channel-bd .texx {
+    width: 100%;
+  }
+  .channel-bd .texx input {
+    width: 100%;
+  }
+  .channel-bd .btn {
+    margin-top: 10px;
+    padding-left: 60px;
+  }
+  .channel-hd {
+    padding-left: 15px;
+  }
+  .channel-main1 {
+    padding-left: 15px;
+  }
+  .channel-main2 .channel-con .content .items {
+    width: 20%;
+  }
+  .channel-main2 .channel-con .content .hriz {
+    width: 80%;
+  }
+}

@@ -1,0 +1,437 @@
+@charset 'utf-8';
+.channel-banner {
+  background-image: url(../images/a0bad6bf4db942c28b59a2ab208a791f.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 85px;
+}
+.channel-banner .box {
+  height: 165px;
+  text-align: left;
+  background: url(../images/black.5.png);
+  color: #fff;
+}
+.channel-banner .box .title {
+  padding-top: 50px;
+  font-size: 38px;
+}
+.channel-banner .box .en {
+  font-size: 24px;
+  font-family: Arial;
+}
+.channel-banner .channel-menu {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 15px;
+}
+.channel-banner .channel-menu ul {
+  float: right;
+}
+.channel-banner .channel-menu ul li {
+  float: left;
+  margin-right: 2px;
+  transition: all 0.5s ease;
+}
+.channel-banner .channel-menu ul li a {
+  font-size: 18px;
+  margin-top: -7px;
+  height: 155px;
+  padding: 12px 20px;
+  display: inline-block;
+}
+.channel-banner .channel-menu ul li a .bico {
+  display: block;
+  width: 130px;
+  height: 110px;
+  margin: 0 auto;
+  text-align: center;
+}
+.channel-banner .channel-menu ul li.now,
+.channel-banner .channel-menu ul li:hover {
+  background: #036EB5;
+}
+.channel-main {
+  width: 99.9%;
+  margin-bottom: 40px;
+}
+.channel-main .con0,
+.channel-main .con1 {
+  clear: both;
+  overflow: hidden;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 25px;
+  display: none;
+}
+.channel-main .con0 .boxz,
+.channel-main .con1 .boxz {
+  border: #e7e7e7 1px solid;
+  background: #fff;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  text-align: center;
+  padding: 10px;
+}
+.channel-main .con0 .boxz .box,
+.channel-main .con1 .boxz .box {
+  display: block;
+  border: #fff 18px solid;
+  background-color: #fff;
+}
+.channel-main .con0 .boxz .box ._img,
+.channel-main .con1 .boxz .box ._img {
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+.channel-main .con0 .boxz .box .title,
+.channel-main .con1 .boxz .box .title {
+  color: #1B81C8;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: left;
+  height: 28px;
+}
+.channel-main .con0 .boxz .box .text,
+.channel-main .con1 .boxz .box .text {
+  font-size: 13px;
+  color: #5a5a5a;
+  line-height: 32px;
+  text-align: left;
+  height: 32px;
+  margin: 0 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.channel-main .con0 .boxz:hover,
+.channel-main .con1 .boxz:hover {
+  background: #F1F1F1;
+}
+.channel-banner .top1 {
+  display: none;
+}
+.channel-main .content0,
+.channel-main .content1 {
+  display: none;
+}
+.channel-main .content2,
+.channel-main .content3 {
+  display: none;
+}
+.channel-main .content2 form,
+.channel-main .content3 form {
+  width: 98%;
+}
+.channel-main .content2 h2,
+.channel-main .content3 h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.channel-main .content2 .te,
+.channel-main .content3 .te {
+  text-align: center;
+  font-size: 15px;
+  color: #0082d8;
+  margin-bottom: 15px;
+}
+.channel-main .content2 .con p,
+.channel-main .content3 .con p {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.channel-main .content2 .con a,
+.channel-main .content3 .con a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.channel-main .content2 .con .cont,
+.channel-main .content3 .con .cont {
+  border: #c3c3c3 1px solid;
+  padding: 10px 10px;
+  min-height: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.channel-main .content2 .con .cont label,
+.channel-main .content3 .con .cont label {
+  float: left;
+}
+.channel-main .content2 .con .cont input,
+.channel-main .content3 .con .cont input {
+  float: left;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+.channel-main .content2 .con .cont .tip,
+.channel-main .content3 .con .cont .tip,
+.channel-main .content2 .con .cont .input,
+.channel-main .content3 .con .cont .input {
+  float: right;
+}
+.channel-main .content2 .con .cont1,
+.channel-main .content3 .con .cont1 {
+  height: 140px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  border: #c3c3c3 1px solid;
+  padding: 10px 10px;
+}
+.channel-main .content2 .con .cont1 textarea,
+.channel-main .content3 .con .cont1 textarea {
+  width: 100%;
+  border-width: 0;
+  outline: none;
+  resize: none;
+}
+.channel-main .content2 .con .btn,
+.channel-main .content3 .con .btn {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #F8731A;
+  border-color: #F8731A;
+  border-bottom: #8c3800 3px solid;
+  padding: 0 50px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.channel-main .channel-left {
+  width: 70%;
+  float: left;
+}
+.channel-main .channel-left .news-list0,
+.channel-main .channel-left .news-list1,
+.channel-main .channel-left .news-list2 {
+  border-top: #cccccc 1px dotted;
+  padding-top: 20px;
+  display: none;
+}
+.channel-main .channel-left .news-list0 li,
+.channel-main .channel-left .news-list1 li,
+.channel-main .channel-left .news-list2 li {
+  border-bottom: #e8e6e6 1px solid;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+.channel-main .channel-left .news-list0 li .time,
+.channel-main .channel-left .news-list1 li .time,
+.channel-main .channel-left .news-list2 li .time {
+  width: 65px;
+  height: 65px;
+  float: left;
+  padding: 10px;
+  background-color: #e1e1e1;
+  color: #0082d8;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial;
+  line-height: 1.2;
+  margin-right: 15px;
+}
+.channel-main .channel-left .news-list0 li .time span,
+.channel-main .channel-left .news-list1 li .time span,
+.channel-main .channel-left .news-list2 li .time span {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  color: #4c4c4c;
+  padding-top: 20px;
+}
+.channel-main .channel-left .news-list0 li h2,
+.channel-main .channel-left .news-list1 li h2,
+.channel-main .channel-left .news-list2 li h2 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.channel-main .channel-left .news-list0 li:hover,
+.channel-main .channel-left .news-list1 li:hover,
+.channel-main .channel-left .news-list2 li:hover {
+  color: #0082D8;
+}
+.channel-main .channel-left .news-list0 .btn span,
+.channel-main .channel-left .news-list1 .btn span,
+.channel-main .channel-left .news-list2 .btn span {
+  float: right;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f86c0f;
+  border-bottom: #8c3800 3px solid;
+  padding: 0 50px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.channel-main .channel-left .news-list2 img {
+  width: 85%;
+}
+.channel-main .channel-right {
+  width: 26%;
+  float: right;
+}
+.channel-main .channel-right .newsSearch {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+.channel-main .channel-right .newsSearch .search-hd strong {
+  font-size: 24px;
+  font-weight: normal;
+  color: #333;
+}
+.channel-main .channel-right .newsSearch .search-bd select {
+  position: relative;
+  border: #ddd 1px solid;
+  background-color: #dedede;
+  height: 38px;
+  line-height: 38px;
+  outline: none;
+  font-family: 微软雅黑;
+}
+.channel-main .channel-right .newsSearch .search-bd .selectz {
+  margin-bottom: 15px;
+  height: 40px;
+  overflow: hidden;
+  background-color: #dedede;
+  text-indent: 10px;
+  position: relative;
+}
+.channel-main .channel-right .newsSearch .search-bd .arrow {
+  width: 36px;
+  background-color: #01a2ea;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.channel-main .channel-right .newsSearch .search-bd .arrow .arr {
+  margin-left: -0.2em;
+  border-top-color: #fff;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  border: .3em solid;
+  border-color: #333 transparent transparent transparent;
+  margin: -0.15em 0 0 -0.3em;
+  z-index: 50;
+}
+.channel-main .channel-right .newsSearch .search-bd .selecty {
+  width: 100%;
+}
+.channel-main .channel-right .newsSearch .search-bd .selecty select {
+  width: 85%;
+}
+.channel-main .channel-right .newsSearch .search-bd .selectm {
+  float: left;
+  width: 44%;
+  margin-right: 2%;
+}
+.channel-main .channel-right .newsSearch .search-bd .selectm select {
+  padding-left: 11px;
+}
+.channel-main .channel-right .newsSearch .search-bd .selectr {
+  float: right;
+  width: 44%;
+}
+.channel-main .channel-right .newsSearch .search-bd .selectr select {
+  padding-left: 11px;
+}
+.channel-main .channel-right .newsSearch .search-bd ._input {
+  display: block;
+  height: 38px;
+  line-height: 35px;
+  border: #ddd 1px solid;
+  padding: 0 20px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.channel-main .channel-right .newsSearch .search-bd ._input input {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  border-width: 0;
+  font-family: "Microsoft Yahei";
+  background-color: #f2f2f2;
+}
+.channel-main .channel-right .newsSearch .search-bd ._btn a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  background-color: #f86c0f;
+  border-bottom: #8c3800 3px solid;
+  padding: 0 50px;
+  cursor: ;
+  padding: ;
+}
+@media screen and (max-width: 640px) {
+  .channel-main .channel-right {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .channel-main .channel-left {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .channel-banner h2,
+  .channel-banner .en {
+    text-align: center;
+  }
+  .channel-banner .top1 {
+    display: block;
+  }
+  .channel-banner .top1 ul li {
+    margin-top: 50px;
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 9px;
+  }
+  .channel-banner .top1 ul .lii {
+    margin-left: 10px;
+  }
+  .channel-banner .top1 ul li.on1 {
+    background-color: #395FB4;
+  }
+  .channel-banner .channel-menu {
+    display: none;
+  }
+  .channel-main .content0,
+  .channel-main .content1 {
+    padding: 0 10px;
+  }
+  .channel-main .content2 form,
+  .channel-main .content3 form {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
